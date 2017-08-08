@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Match Game</title>
+  
+  <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,900" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Chelsea+Market" rel="stylesheet"> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="icon" href="favicon.png">
+  <link rel="stylesheet" href="./resources/css/reset.css" type="text/css">
+  <link rel="stylesheet" href="./resources/css/style.css" type="text/css">
+  
+</head>
+<body>
+
+	<!-- Main -->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 col-sm-12 col-xs-12" id="about">
+				<h1>Match Game</h1>
+				<h2>Rules</h2>
+				<p>Click on a card to reveal the number on the other side. Click on a second card to try and find a match to the first. If you succeed, the pair will be removed from play. If not, try again!</p>
+				<h2>How To Win</h2>
+				<p>You win when all pairs have been found.</p>
+				<!--
+				<div class="btn-group" role="group" aria-label="Follow me button group.">
+					<a class="btn btn-default btn-sm">Follow me on </a>
+					<a class="btn btn-default btn-sm" title="GitHub" href="https://www.github.com/awk888"><i class="fa fa-github fa-lg"></i></a>
+				</div>
+				-->
+				<a href="javascript:void(0);" class="btn btn-default btn-md">Restart Game &nbsp; <i class="fa fa-refresh" aria-hidden="true"></i></a>
+			</div>
+			<div class="col-md-9 col-sm-12 col-xs-12">
+				<div id="game" class="row">
+					
+				</div>
+			</div>
+		</div>
+	</div>
+		
+	<!-- End Main -->
+
+
+  <!-- Script -->
+
+  <script
+    src="https://code.jquery.com/jquery-3.1.1.min.js"
+    integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="./resources/js/match-game.js"></script>
+  <script type="text/javascript" src="./resources/js/tests.js"></script>
+</body>
+</html>
